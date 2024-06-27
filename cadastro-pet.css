@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    line-height: 1.5;
+    min-height: 100vh;
+    background: #f3f3f3;
+    margin: 0;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.fundo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('passeando-fundo.jpg'); 
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.texto{
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    left: 0;
+}
+
+.texto h1{
+    font-size: 90px;
+    color: #8b10c9;
+    margin-left: 10px;
+    text-shadow: 2px 2px 0px black;
+}
+
+.texto p{
+    font-size: 30px;
+    color: #8b10c9;
+    margin-left: 10px;
+    text-shadow: 2px 2px 0px black;
+}
+
+.main {
+    background-color: #fff;
+    position: fixed;
+    z-index: 1;
+    border-radius: 27px 0px 0px 22px;
+    -webkit-border-radius: 27px 0px 0px 22px;
+    -moz-border-radius: 27px 0px 0px 22px;
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width: 40%;
+    height: 100%;
+    text-align: center;
+}
+
+label {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+}
+
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 15px;
+    border-radius: 19px !important;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+    border: none;
+    color: white;
+    cursor: pointer !important;
+    background-color: #cd98e7;
+    width: 40%;
+    font-size: 20px !important;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

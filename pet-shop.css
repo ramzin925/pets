@@ -1,0 +1,314 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #447073 !important;
+}
+
+.bowlby-one-regular {
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+  .londrina-solid-thin {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .londrina-solid-light {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .londrina-solid-regular {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .londrina-solid-black {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+
+header {
+    background: url('gato-cachorro.jpg') no-repeat center center/cover;
+    color: white;
+    height: 60vh;
+    position: relative;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    text-decoration: none !important;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    font-family: "Bowlby One", sans-serif;
+    text-align: left;
+    font-size: 80px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    align-items: baseline;
+}
+
+.menu a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none !important;
+    text-align: left;
+    text-shadow: 2px 4px 3px black;
+}
+
+.menu a:hover{
+    color: #d4d0d0;
+}
+
+.header-text h1 {
+    font-size: 3rem;
+    margin: 0;
+    text-shadow: 4px 5px 4px black;
+    font-size: 30px;
+}
+
+.header-text p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    text-shadow: 4px 5px 4px black;
+}
+
+.header-text button {
+    background-color: rgb(216, 128, 28);
+    color: white;
+    border: none;
+    height: 50px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.header-text button:hover{
+    background-color: rgb(204, 113, 9);
+
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 80% !important;  
+    margin: 0 auto; 
+}
+
+.part-1{
+    padding: 20px;
+    margin: 30px;
+}
+
+.part-1 p{
+    font-size: 36px;
+    color:  rgb(243, 129, 22);
+    font-family: "Londrina Solid", sans-serif;
+}
+
+.card{
+    background-color: #A96A40 !important;
+    color: #fff;
+    box-shadow: 8px 5px 10px #395E61;
+    display: flex !important;
+    position: relative !important;
+    justify-content: center;
+    width: 70%;
+    align-items: center;
+    margin: auto;
+    border-radius: 30px !important;
+}
+
+.imagem-ct{
+    display: flex;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    margin: 20px 10px;
+    
+}
+
+.petsitter{
+    width: 340px; 
+    height: 340px;
+    margin: 5px; 
+    border-radius: 50%; 
+    object-fit: cover;  /* Garante que a imagem preencha o contêiner circular */
+    margin-left: 20px;
+    margin-top: 30px; 
+    border: 1px solid black; 
+}
+
+.txt-a{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    font-size: 32px;
+    font-family: "Bowlby One", sans-serif;
+    
+}
+
+.txt-b{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    font-size: 30px;
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    
+}
+
+.servicos{
+    background: #395E61;
+    display: flex;
+    height: 100%;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 70px;
+    margin: 70px;
+}
+
+.hospedagem {
+    background-color: aliceblue;
+    border-radius: 30px;
+    margin: 10px;
+    width: 70%;
+    height: 100%;
+    flex-shrink: 1;
+    flex-basis: 20%;
+}
+
+.pet-sitter {
+    background-color: aliceblue;
+    border-radius: 30px;
+    margin: 10px;
+    width: 70%;
+    height: 100%;
+    flex-shrink: 1;
+    flex-basis: 20%;
+}
+
+.creche {
+    background-color: aliceblue;
+    border-radius: 30px;
+    margin: 10px;
+    width: 70%;
+    height: 100%;
+    flex-shrink: 1;
+    flex-basis: 20%;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.icon img {
+    width: 40%;
+    height: 40%;
+
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 20px !important;
+    padding: 10px;
+    text-align: left;
+}
+
+.servicos p {
+    font-size: 14px;
+    color: #555;
+    padding: 10px;
+    margin-top: 5px !important;
+    text-align: left;
+}
+
+
+.Gato-Vetor{
+    display: flex;
+    position: absolute;
+    transform: translate(200%, -92%);
+    overflow: hidden;
+    flex: 1;
+    width: 200px;
+    height: 100px;
+}
+
+.Gato-Vetor img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #8A2BE2;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+.footer p{
+    margin: 10px;
+    font-size: 20px;
+}
+
+
+
