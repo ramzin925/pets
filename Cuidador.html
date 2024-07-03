@@ -49,27 +49,37 @@
 
 
                 <div class="wrap">
-                    <button type="submit" onclick="redirecionar()">
-                        Login
+                    <button type="submit"
+                            onclick="redirecionar()">
+                          Login
                     </button>
-            </form>
+
 
         </div>
 
     </div>
 
     <div class="Foto">
-        <div class="Perfil">
-            <label for="foto-de-perfil"><i class="fa fa-file-image-o" style="font-size: 70px; margin: 38px;"></i></label>
-            <input type="file" id="foto-de-perfil" name="foto-de-perfil" accept="image/*">
-            <img id="previa" src="#" alt="Preview da imagem de perfil" style="display: none;">
+
+        <div class="perfil">
+            <i class="fa fa-file-image-o"></i>
         </div>
+
+        <div class="texto-perfil">
+            <p class="texto-foto-tl">Faça Uploud de uma foto sua</p>
+        </div>
+
+        <div class="bio">
+            <h2>Escreva sua Biografia:</h2>
+            <textarea id="Biografia" placeholder="Escreva aqui sua Biografia..." rows="5"></textarea>
+        </div>
+
+
     </div>
 
-
+    <script src="pet-shop.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-     <script src="pet-shop.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

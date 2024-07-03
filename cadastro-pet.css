@@ -34,30 +34,31 @@ body {
 
 .texto h1{
     font-size: 90px;
-    color: #8b10c9;
+    color: #447073;
     margin-left: 10px;
     text-shadow: 2px 2px 0px black;
 }
 
 .texto p{
     font-size: 30px;
-    color: #8b10c9;
+    color: #447073;
     margin-left: 10px;
     text-shadow: 2px 2px 0px black;
 }
 
 .main {
-    background-color: #fff;
+    background-color: #447073;
     position: fixed;
     z-index: 1;
-    border-radius: 27px 0px 0px 22px;
-    -webkit-border-radius: 27px 0px 0px 22px;
-    -moz-border-radius: 27px 0px 0px 22px;
     padding: 10px 20px;
     transition: transform 0.2s;
     width: 40%;
     height: 100%;
     text-align: center;
+}
+
+.main h3{
+    color: #fff;
 }
 
 label {
@@ -66,7 +67,7 @@ label {
     margin-top: 10px;
     margin-bottom: 5px;
     text-align: left;
-    color: #555;
+    color: #fff;
     font-weight: bold;
 }
 
@@ -89,13 +90,26 @@ button {
     border: none;
     color: white;
     cursor: pointer !important;
-    background-color: #cd98e7;
-    width: 40%;
-    font-size: 20px !important;
+    background-color: #FF8E0D;
+    width: 30%;
+    font-size: 25px !important;
 }
 
 .wrap {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.lg-a{
+    color: #ebebeb;
+}
+
+.lg-a a{
+    text-decoration: none;
+    color: #ec9164;
+}
+
+.lg-a a:hover{
+    color: #d88359;
 }
